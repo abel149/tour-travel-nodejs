@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+      integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK"
+      crossorigin="anonymous"
+    />
+
+   <!-- <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/try.css">
+    <!-- <link rel="stylesheet" href="blog.css" /> -->
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+      }
+
+      .container {
+        width: 100%;
+        height: 100vh;
+        padding: 0 8%;
+      }
+      .container h1 {
+        text-align: center;
+        padding-top: 10%;
+        margin-bottom: 60px;
+        font-weight: 600;
+        position: relative;
+      }
+      .container h1::after {
+        content: "";
+        background: #303ef7;
+        width: 100px;
+        height: 5px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 30px;
+      }
+      .services {
+        text-align: center;
+        padding: 25px 10px;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        background: transparent;
+        transition: transform 0.5s;
+      }
+      .services i {
+        font-size: 40px;
+        margin-bottom: 10px;
+        color: #303ef7;
+      }
+      .services h2 {
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+      .services:hover {
+        background: #303ef7;
+        color: #fff;
+        transform: scale(1.05);
+      }
+      .services:hover i {
+        color: #fff;
+      }
+    </style>
+    <script
+      src="https://kit.fontawesome.com/06f9d99ced.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+   
+  <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+    <div class="container-fluid justify-content-center">
+        
+        <ul class="navbar-nav text-center" id="n">
+            <li><a class="navbar-brand" href="#"> 
+                <img class="logo" src="images/t.jpg" style="width:80px;" alt="">
+                </a><span class="name"> JOY Ethiopia </span>
+              
+              </li>
+            
+  <li class="nav-item " id="f1">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item" id="f2">
+            <a class="nav-link" href="Blog.html">Blog</a>
+          </li>
+  
+  <li class="nav-item" id="f3">
+            <a class="nav-link" href="Services.html">Services</a>
+          </li>
+  
+  
+          <li class="nav-item" id="f4">
+            <a class="nav-link" href="feedback.html">Feedback</a>     
+           <li class="nav-item" id="f5">
+            <a class="nav-link" href="Contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item" id="f6">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+          
+        
+        
+          <div id="menub">
+            <!--<input type="checkbox" id="openSidebarMenu">-->
+            <label class="sidebar">
+              <div class="spiner top"></div>
+              <div class="spiner middle"></div>
+              <div class="spiner bottom"></div>
+            </label>
+          </div> 
+         </li>
+        </u>  
+     </div>
+    </div>
+  </nav>
+  
+<body>
+    <div class="container">
+      <h1>Our Services</h1>
+
+      <div class="row">
+        <div class="services">
+          <i class="fa-solid fa-plane"></i>
+          <h2>Explore</h2>
+          <p>"Jet Set with JOYEthiopia: Explore the Ethiopia in Style!"</p>
+        </div>
+
+        <div class="services">
+          <i class="fa-sharp fa-solid fa-suitcase-rolling"></i>
+          <h2>GlobeTrek</h2>
+          <p>
+            "Unlock Boundless Adventures with JOYEthiopia: Your Trusted Travel
+            Companion!"
+          </p>
+        </div>
+
+        <div class="services">
+          <i class="fa-solid fa-passport"></i>
+          <h2>PassQuest</h2>
+          <p>"Passport to Excitement: Discover the World with JOYEthiopia"</p>
+        </div>
+
+        <div class="services">
+          <i class="fa-solid fa-location-dot"></i>
+          <h2>ExplorePoint</h2>
+          <p>
+            "Find Your Perfect Destination: JOYEthiopia Guides You to
+            Extraordinary Places!"
+          </p>
+        </div>
+
+        <div class="services">
+          <i class="fa-solid fa-blog"></i>
+          <h2>WanderLust</h2>
+          <p>
+            "Journey Through Words: Explore the World with JOYEthiopia Blog!"
+          </p>
+        </div>
+
+        <div class="services">
+          <i class="fa-solid fa-car"></i>
+          <h2>RoamingLens</h2>
+          <p>
+            "Hit the Road with JOYEthiopia: Unleash Your Wanderlust on Wheels!"
+          </p>
+        </div>
+
+        <div class="services">
+          <i class="fa-solid fa-camera"></i>
+          <h2>Snapventure</h2>
+          <p>
+            "Capture Moments, Unleash Inspiration: JOYEthiopia - Your Visual
+            Travel Guide!"
+          </p>
+        </div>
+
+        <div class="services">
+          <i class="fa-solid fa-city"></i>
+          <h2>Urbanite</h2>
+          <p>
+            "Discover Urban Wonders: JOYEthiopia - Your Gateway to Vibrant
+            Cities!"
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="javascript/vav.js"></script>
+</html>
